@@ -1,0 +1,29 @@
+{
+  "name": "ten10-tech-test",
+  "version": "1.0.0",
+  "description": "Ten10 Technical Test",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test --workers=1",
+    "test:ui": "playwright test --ui --workers=1",
+    "test:report": "playwright show-report",
+    "lint": "tsc --noEmit && eslint src tests --ext .ts",
+    "lint:fix": "tsc --noEmit && eslint src tests --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "dotenv": "^17.2.2",
+    "eslint": "^9.0.0",
+    "eslint-plugin-playwright": "^2.2.2",
+    "jiti": "^2.5.1",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.43.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
