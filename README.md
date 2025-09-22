@@ -91,7 +91,7 @@ There is a failing test on the navigation due to the account management going to
 ![alt text](errors/AccountMgmt404.png)
 
 Also i was not sure if the Ten10 Logo should be throwing a 404
-![alt text](Ten10404.png)
+![alt text](errors/Ten10404.png)
 
 It appears that Consent can be bypassed so there is a failing tests for this
 ![alt text](/errors/NoConsentRequired.png)
